@@ -42,3 +42,9 @@ class TextEncoder(nn.Module):
        
         projection_len = torch.norm(projected_vec, dim=-1, keepdim=True)        
         return projected_vec / projection_len
+
+
+
+试运行：
+  https://www.kaggle.com/code/weililong/mscoco-myclip
+
